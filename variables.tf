@@ -3,17 +3,17 @@
 // ----------------------------------------------------------------------------
 variable "region" {
   description = "AWS region code for creating resources."
-  type        = "us-west-2"
+  type        = string
 }
 
 variable "profile" {
   description = "Profile stored in aws config or credentials file"
-  type        = ""
+  type        = string
 }
 
 variable "cluster_version" {
   description = "Kubernetes version to use for the EKS cluster."
-  type        = 1.23
+  type        = "1.23"
 }
 
 variable "vault_user" {
