@@ -13,7 +13,7 @@ variable "profile" {
 
 variable "cluster_version" {
   description = "Kubernetes version to use for the EKS cluster."
-  type        = "1.23"
+  type        = string
 }
 
 variable "vault_user" {
@@ -24,7 +24,7 @@ variable "vault_user" {
 
 variable "cluster_name" {
   description = "Name of the Kubernetes cluster to create"
-  type        = jenkins-x
+  type        = string
   default     = ""
 }
 
