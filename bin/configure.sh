@@ -3,7 +3,7 @@ set -e
 set -x
 
 # lets configure the terraform module
-export TF_VAR_cluster_name=$CLUSTER_NAME
-export TF_VAR_jx_git_url=https://${GIT_SERVER_HOST}/${GH_OWNER}/cluster-${CLUSTER_NAME}-dev.git
-export TF_VAR_jx_bot_username=$GIT_USERNAME
-export TF_VAR_jx_bot_token=$GIT_TOKEN
+export TF_VAR_cluster_name=Jenkins-X
+export TF_VAR_jx_git_url=https://github.com/sreekanth1100/Jenkinsx-cluster.git
+export TF_VAR_jx_bot_username=sreekanth1100
+export TF_VAR_jx_bot_token=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
