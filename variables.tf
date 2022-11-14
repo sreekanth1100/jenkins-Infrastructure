@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------
 variable "region" {
   description = "AWS region code for creating resources."
-  type        = us-west-2
+  type        = "us-west-2"
 }
 
 variable "profile" {
