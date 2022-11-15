@@ -1,8 +1,8 @@
 provider "aws" {
   region  = var.region
   profile    = "default"
-  access_key = "XXXXXX"
-  secret_key = "XXXXXXXXXXXXXXXXXX"
+  access_key = "AKIAXLEVBHFNICQFMTGG"
+  secret_key = "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"
 }
 
 module "eks-jx" {
